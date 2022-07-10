@@ -1,3 +1,3 @@
 # Design-simple-iCn3D-UI-for-middle-high-school-students
-##Rationale
+## Rationale
 iCn3D is a product with a long history of supporting scientific requirements. As such it has an expasive nested menu system that uses a mix of common and domain specific language resulting in over 500 menu items, which can be confusing to scientists and daunting to students and teachers. Additionally, the user interface, being web-based, can have challenges related to the nature of running an app in a browser (mouse controls, selects, positioning, responsiveness, refreshing). The goals of this project are to: 1. identify the common operations needed for completing classroom exercises, 2. contribute protoype code for reducing the number of menus for testing, and 3. make initial recommendations for education modes of operation.   
