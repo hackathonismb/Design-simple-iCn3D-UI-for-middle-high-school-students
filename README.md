@@ -21,4 +21,11 @@ unpack the zip file
 
 run: 
 * Using NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json'
-* Using python: python -m webbrowser 'http://localhost:8080/icn3d/?menuconfig=menu.json'
+* Using python: python -m http.server | python -m webbrowser 'http://localhost:8080/icn3d/?menuconfig=menu.json'
+
+As this is a prototype workaround a file is needed. I put these in a structures directory, the commands are now:
+* Using NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
+* Using python: python -m http.server | python -m webbrowser 'http://localhost:8080/icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
+The type parameter specifies either a pdb file or a png file. For png use type=png. The url paramter is the file path. State files can also be loaded for visualizing annotations using the statefile parameter, statefile=filepath
+
+
