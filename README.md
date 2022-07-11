@@ -6,5 +6,7 @@ ImmunoZoo instructions: https://docs.google.com/document/d/1mgUmdTZb0Jm8a7kcAk3M
 ImmunoZoo collection of structures: https://docs.google.com/spreadsheets/d/1dNwRKIW9KKBT1mgaUcUotgTucZFmQWeYpRalAzj_OaQ/edit?usp=sharing
 
 Controling Menus
-See iCn3D-protyping/menu_parser/
+Note: Requires that a local server be running
+Install a local version of iCn3D
+See https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser for python code
 
