@@ -5,7 +5,7 @@ iCn3D is a product with a long history of supporting scientific requirements. As
 2. contribute protoype code for reducing the number of menus for testing; and
 3. make initial recommendations for education modes of operation.   
 
-### the zoo
+## The Zoo
 Want to find antibodies from different creatures. 
 * First Presentation:  https://docs.google.com/presentation/d/1OnyCz__iWb9fTSz5xCb71lRYy5MXRFTvo_NPsnCH3W0/edit#slide=id.g13bea56a948_0_7
 * ImmunoZoo instructions: https://docs.google.com/document/d/1mgUmdTZb0Jm8a7kcAk3M4k7qT7uyJdRhYs5H_GlYShE/edit?usp=sharing
@@ -14,7 +14,7 @@ Want to find antibodies from different creatures.
 ### Background info about antibodies
 https://docs.google.com/document/d/1FAHEWJQzkU6aisSKvdcxgtUSxdAJa-PTYiNXRngt16s/edit?usp=sharing
 
-### Controlling Menus
+## Controlling Menus
 Note: Requires that a local server be running
 Install a local version of iCn3D
 See https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser for python code
