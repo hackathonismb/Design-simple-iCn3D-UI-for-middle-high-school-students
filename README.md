@@ -15,12 +15,12 @@ Want to find antibodies from different creatures.
 https://docs.google.com/document/d/1FAHEWJQzkU6aisSKvdcxgtUSxdAJa-PTYiNXRngt16s/edit?usp=sharing
 
 ## Controlling Menus
-Note: Requires that a local server be running
-Install a local version of iCn3D
-See https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser for python code
+In previous work we created a method to prototype whether an iCn3d menu is displayed or not using a menu.json control file. The control file is created by instantiating iCn3d to get the entire html, scraping the menu items, and writing the menus and classes with a control flag (0 no display, 1 display) in a nested json structure. The nesting corresponds to iCn3D's overall menu structure. 
 
-For testing
-unpack the zip file
+To build the menu.jason file, first install and build local version of iCn3D following the instructions on the iCn3D page. 
+Next, get cn3d_menu_parser.py and follow the instructions on https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser. 
+
+For simple testing of iCn3d_3.12.7 - the "codeathon" version, download and unpack the zip file in this repository. It has a prebuilt menu.jason file with all menus on. 
 
 run: 
 * NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json'
@@ -31,5 +31,8 @@ As this is a prototype workaround a file is needed. I put these in a structures 
 * python: python -m http.server | python -m webbrowser 'http://localhost:8000/icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
 The type parameter specifies either a pdb file or a png file. For png use type=icn3dpng. The url paramter is the file path. State files can also be loaded for visualizing annotations using the statefile parameter, statefile=/filepath. Besure to specify the root dir in paths ("/"). 
 Note: the python http.server default port is 8000 - to change add a port after the command, e.g. "python -m http.server 8080." Maksure localhost:port matches. 
+
+### to do
+Ideally we'd like to have the menus under "positive control." That is, we can most menus off. Rather than toggle each menu item, 500+ times!, we should specifiy the menus we want on, pass those to the script and then output a control file with all menus off, except for those passed into the menu parser script. 
 
 
