@@ -8,7 +8,10 @@ First Presentation:  https://docs.google.com/presentation/d/1OnyCz__iWb9fTSz5xCb
 ImmunoZoo instructions: https://docs.google.com/document/d/1mgUmdTZb0Jm8a7kcAk3M4k7qT7uyJdRhYs5H_GlYShE/edit?usp=sharing
 ImmunoZoo collection of structures: https://docs.google.com/spreadsheets/d/1dNwRKIW9KKBT1mgaUcUotgTucZFmQWeYpRalAzj_OaQ/edit?usp=sharing
 
-### Controling Menus
+###Background info about antibodies
+https://docs.google.com/document/d/1FAHEWJQzkU6aisSKvdcxgtUSxdAJa-PTYiNXRngt16s/edit?usp=sharing
+
+### Controlling Menus
 Note: Requires that a local server be running
 Install a local version of iCn3D
 See https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser for python code
