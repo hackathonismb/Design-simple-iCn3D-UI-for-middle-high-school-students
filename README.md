@@ -15,7 +15,7 @@ Want to find antibodies from different creatures.
 https://docs.google.com/document/d/1FAHEWJQzkU6aisSKvdcxgtUSxdAJa-PTYiNXRngt16s/edit?usp=sharing
 
 ## Controlling Menus
-In previous work we created a method to prototype whether an iCn3d menu is displayed or not using a menu.json control file. The control file is created by instantiating iCn3d to get the entire html, scraping the menu items, and writing the menus and classes with a control flag (0 no display, 1 display) in a nested json structure. The nesting corresponds to iCn3D's overall menu structure. 
+In previous work we created a method to prototype whether an iCn3d menu is displayed or not using a menu.json control file. The control file is created by instantiating iCn3d to get the entire html, scraping the menu items, and writing the menus and classes with a control flag (0 no display, 1 display) in a nested json structure. The nesting corresponds to iCn3D's overall menu structure and allows for entire menu blocks (Specified by Self) or individual items to set.  
 
 To build the menu.jason file, first install and build local version of iCn3D following the instructions on the iCn3D page. 
 Next, get cn3d_menu_parser.py and follow the instructions on https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser. 
@@ -33,6 +33,6 @@ The type parameter specifies either a pdb file or a png file. For png use type=i
 Note: the python http.server default port is 8000 - to change add a port after the command, e.g. "python -m http.server 8080." Maksure localhost:port matches. 
 
 ### to do
-Ideally we'd like to have the menus under "positive control." That is, we can most menus off. Rather than toggle each menu item, 500+ times!, we should specifiy the menus we want on, pass those to the script and then output a control file with all menus off, except for those passed into the menu parser script. 
+Ideally we'd like to have the menus under "positive control." That is, we can most menus off. Rather than toggle each menu item, 500+ times!, we should specifiy the menus we want displayed, and pass those to the script to write a control file with all menus off, except for those passed into the menu parser script. Div tags can used for the matching. Self menus have a ui-id-number that can be used.  
 
 
