@@ -10,3 +10,10 @@ Note: Requires that a local server be running
 Install a local version of iCn3D
 See https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser for python code
 
+For testing
+unpack the zip file
+create a public_html directory
+mv icn3d dir to public_html
+run: 
+* Using NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json'
+* Using python: python -m webbrowser 'http://localhost:8080/icn3d/?menuconfig=menu.json'
