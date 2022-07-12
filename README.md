@@ -21,7 +21,7 @@ https://docs.google.com/document/d/1FAHEWJQzkU6aisSKvdcxgtUSxdAJa-PTYiNXRngt16s/
 In previous work we created a method to prototype whether an iCn3d menu is displayed or not using a menu.json control file. The control file is created by instantiating iCn3d to get the entire html, scraping the menu items, and writing the menus and classes with a control flag (0 no display, 1 display) in a nested json structure. The nesting corresponds to iCn3D's overall menu structure and allows for entire menu blocks (Specified by Self) or individual items to set.  
 
 ### Menu file
-To build the menu.jason file, first install and build local version of iCn3D following the instructions on the iCn3D page. 
+To build the menu.json file, first install and build local version of iCn3D following the instructions on the iCn3D page. 
 Next, get cn3d_menu_parser.py and follow the instructions on https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser. 
 
 For simple testing of iCn3d_3.12.7 - the "codeathon" version, download and unpack the zip file in this repository. It has a prebuilt menu.jason file with all menus on. 
