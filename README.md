@@ -67,3 +67,6 @@ Databases are great, they are often populated in automated ways, that's what mak
 
 ### Harmony
 iCn3D updates frequently. There are lots of discussions regarding specific applications, different modalities, and local operation. A big question that will come up is how can updates of iCn3D be propogated and synchronized with other versions. Presently some modifications require updating functions in several locations within the code. Micgrating changes from one version to another can take on the order of day(s) to complete.  
+
+## Team
+comming soon
