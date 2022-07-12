@@ -47,7 +47,8 @@ Making iCn3D more accessbile for naive users requires changes at both the applic
 1. iCn3D has links everywhere, some make selections, others take you places like databases at NCBI, and <em>all look the same</em> - how do I know what will happen before it happens (maybe it's the underlines) - but a tiny external icon many 
 2. Title - always get in the way, I'd like to toggle between show and hide. 
 3. Select defined sets appaears in two places. 
-4. Lauguage lots of thesee, and example: "hide unselected" instead of "view selection" it paralleles the item and the action hides things. 
+4. Lauguage lots of thesee, and example: "hide unselected" instead of "view selection" it paralleles the item and the action hides things.
+5. Load assymetric unit - who really knows what that is about? 
 
 #### How to approach
 Can we survey users for their 10 essentials? <br>
