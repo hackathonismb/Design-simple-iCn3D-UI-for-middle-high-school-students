@@ -42,6 +42,13 @@ Ideally we'd like to have the menus under "positive control." That is, we can mo
 
 
 ## Recomendations
-1. iCn3D has links everywhere, some make selections, others take you places like databases at NCBI, and <em>all look the same</em> - how do I know what will happen before it happens.
+Making iCn3D more accessbile for naive users requires changes at both the application and data level. The data and the application create the experiece. 
+### Application
+1. iCn3D has links everywhere, some make selections, others take you places like databases at NCBI, and <em>all look the same</em> - how do I know what will happen before it happens (maybe it's the underlines) - but a tiny external icon many 
 2. Title - always get in the way, I'd like to toggle between show and hide. 
-3. 
+3. Select defined sets appaears in two places. 
+4. Lauguage lots of thesee, and example: "hide unselected" instead of "view selection" it paralleles the item and the action hides things. 
+
+### Data
+Databases are great, they are often populated in automated ways, that's what makes them great. However, it does not take long to experiece data that do not fit expectations. And, while we want to increase levels of annotation to advance science, files can have much information for eduation purposes. A common practice is to learn principles then use unknowns for assessment.  
+
