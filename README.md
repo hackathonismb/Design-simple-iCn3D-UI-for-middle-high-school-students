@@ -8,7 +8,7 @@ iCn3D is a product with a long history of supporting scientific requirements. As
 3. Make initial recommendations for education modes of operation.   
 
 ## Why a Zoo?
-We need a project to direct activities and learn what is hard to do and thus, needed to be improved. Antibodies are important molecules in research, biotechnology applications, and health. And, all vertebrates have them, and they come in different sizes and shapes. So, antibodies make a good test case and learning about antibodies from different animals is fun. 
+We need a project to direct activities and learn what is easy/hard to do and thus, identify areas for improvement. Antibodies are important molecules in research, biotechnology applications, and health. And, all vertebrates have them, and they come in different sizes and shapes. So, antibodies make a good test case and learning about antibodies from different animals is fun. 
 Want to find antibodies from different creatures. 
 * First Presentation:  https://docs.google.com/presentation/d/1OnyCz__iWb9fTSz5xCb71lRYy5MXRFTvo_NPsnCH3W0/edit#slide=id.g13bea56a948_0_7
 * ImmunoZoo instructions: https://docs.google.com/document/d/1mgUmdTZb0Jm8a7kcAk3M4k7qT7uyJdRhYs5H_GlYShE/edit?usp=sharing
