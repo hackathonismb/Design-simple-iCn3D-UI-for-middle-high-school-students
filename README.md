@@ -31,6 +31,7 @@ run:
 As this is a prototype workaround a file is needed. I put these in a structures directory, the commands are now:
 * NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
 * python: python -m http.server | python -m webbrowser 'http:<area>//localhost:8000/icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
+
 The type parameter specifies either a pdb file or a png file. For png use type=icn3dpng. The url paramter is the file path. State files can also be loaded for visualizing annotations using the statefile parameter, statefile=/filepath. Besure to specify the root dir in paths ("/"). 
 Note: the python http.server default port is 8000 - to change add a port after the command, e.g. "python -m http.server 8080." Maksure localhost:port matches. 
 
