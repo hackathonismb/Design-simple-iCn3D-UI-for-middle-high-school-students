@@ -1,9 +1,11 @@
 # ImmunoZoo - Making iCn3D accessble for many audiences
 ## Rationale
-iCn3D is a product with a long history of supporting scientific requirements. As such it has an expasive nested menu system that uses a mix of common and structural biology specific terms resulting in over 500 menu items. The sheer number of menus, combined with opaque language can be confusing to scientists and daunting to students and teachers, and others less familiar with structural biology, and (or) new to iCn3D (like many hack/code-athon participants).   Additionally, the user interface, being web-based, can have challenges related to the nature of running an app in a browser (mouse controls, selects, positioning, responsiveness, refreshing). The goals of this project are to: 
-1. identify the common operations needed for completing classroom exercises; 
-2. contribute protoype code for reducing the number of menus for testing; and
-3. make initial recommendations for education modes of operation.   
+iCn3D is a product with a long history of supporting scientific requirements. As such it has an expasive nested menu system that uses a mix of common and structural biology specific terms resulting in over 500 menu items. The sheer number of menus, combined with opaque language can be confusing to scientists and daunting to students and teachers, and others less familiar with structural biology, and (or) new to iCn3D (like many hack/code-athon participants).   Additionally, the user interface, being web-based, can have challenges related to the nature of running an app in a browser (mouse controls, selects, positioning, responsiveness, refreshing). 
+
+### Project goals: 
+1. Identify the common operations needed for completing classroom exercises; 
+2. Contribute protoype code for reducing the number of menus for testing; and
+3. Make initial recommendations for education modes of operation.   
 
 ## Why a Zoo?
 We need a project to direct activities and learn what is hard to do and thus, needed to be improved. 
