@@ -50,7 +50,8 @@ Making iCn3D more accessbile for naive users requires changes at both the applic
 4. Lauguage lots of thesee, and example: "hide unselected" instead of "view selection" it paralleles the item and the action hides things.
 5. Load assymetric unit - who really knows what that is about? 
 6. Default displays - make them easier to convey an understanding of structures (like surface, but it's slow), sphere is good too (better behaved, but needs juice too), but needs more depth (pretty has an impact too)
-7. 
+7. MMDB PDB, vs PDB PDB - they are different. 
+8. 
 
 #### How to approach
 Can we survey users for their 10 essentials? <br>
