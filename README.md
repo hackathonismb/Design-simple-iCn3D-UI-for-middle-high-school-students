@@ -17,6 +17,7 @@ https://docs.google.com/document/d/1FAHEWJQzkU6aisSKvdcxgtUSxdAJa-PTYiNXRngt16s/
 ## Controlling Menus
 In previous work we created a method to prototype whether an iCn3d menu is displayed or not using a menu.json control file. The control file is created by instantiating iCn3d to get the entire html, scraping the menu items, and writing the menus and classes with a control flag (0 no display, 1 display) in a nested json structure. The nesting corresponds to iCn3D's overall menu structure and allows for entire menu blocks (Specified by Self) or individual items to set.  
 
+### Menu file
 To build the menu.jason file, first install and build local version of iCn3D following the instructions on the iCn3D page. 
 Next, get cn3d_menu_parser.py and follow the instructions on https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser. 
 
@@ -26,12 +27,14 @@ run:
 * NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json'
 * python: python -m http.server | python -m webbrowser 'http://localhost:8080/icn3d/?menuconfig=menu.json'
 
+### URL parameters
 As this is a prototype workaround a file is needed. I put these in a structures directory, the commands are now:
 * NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
 * python: python -m http.server | python -m webbrowser 'http://localhost:8000/icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
 The type parameter specifies either a pdb file or a png file. For png use type=icn3dpng. The url paramter is the file path. State files can also be loaded for visualizing annotations using the statefile parameter, statefile=/filepath. Besure to specify the root dir in paths ("/"). 
 Note: the python http.server default port is 8000 - to change add a port after the command, e.g. "python -m http.server 8080." Maksure localhost:port matches. 
 
+### Main html file
 Being able to call the control file, load a pdb, png, or state file requires that the main html file (full.html) be modified. <br>
 The new code was added to a copy of full.html (index.html). As new versions of iCn3D come out, this file needs to be compared to the full.html and updated acccoringly. The index.html in the zip file was quickly updated and may have parts that are out of sycn, but should be adequate for testing general ideas. Using the index.html convention simplifies the url in that the main html file does not need to be specified in the URL (https://icn3d/?params vs https://icn3d/full.html?params); anyname can be used with the predeeding caveat in mind.
 
