@@ -61,3 +61,5 @@ Can we break this down, e.g. top menu by top menu? <br>
 ### Data
 Databases are great, they are often populated in automated ways, that's what makes them great. However, it does not take long to experiece data that do not fit expectations. And, while we want to increase levels of annotation to advance science, files can have much information for eduation purposes. A common practice is to learn principles then use unknowns for assessment.  
 
+### Harmony
+iCn3D updates frequently. There are lots of discussions regarding specific applications, different modalities, and local operation. A big question that will come up is how can updates of iCn3D be propogated and synchronized with other versions. Presently some modifications require updating functions in several locations within the code. Micgrating changes from one version to another can take on the order of day(s) to complete.  
