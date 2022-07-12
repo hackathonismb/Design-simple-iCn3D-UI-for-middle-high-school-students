@@ -41,3 +41,7 @@ Being able to call the control file, load a pdb, png, or state file requires tha
 Ideally we'd like to have the menus under "positive control." That is, we can most menus off. Rather than toggle each menu item, 500+ times!, we should specifiy the menus we want displayed, and pass those to the script to write a control file with all menus off, except for those passed into the menu parser script. Div tags can used for the matching. Self menus have a ui-id-number that can be used.  
 
 
+## Recomendations
+1. iCn3D has links everywhere, some make selections, others take you places like databases at NCBI, and <em>all look the same</em> - how do I know what will happen before it happens.
+2. Title - always get in the way, I'd like to toggle between show and hide. 
+3. 
