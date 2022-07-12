@@ -49,6 +49,12 @@ Making iCn3D more accessbile for naive users requires changes at both the applic
 3. Select defined sets appaears in two places. 
 4. Lauguage lots of thesee, and example: "hide unselected" instead of "view selection" it paralleles the item and the action hides things. 
 
+#### How to approach
+Can we survey users for their 10 essentials? <br>
+Separate hard core structural biology from genral use? Molecule World provides insights. <br>
+Can we use web tracking tools to "follow" users? <br>
+Can we break this down, e.g. top menu by top menu? <br>
+
 ### Data
 Databases are great, they are often populated in automated ways, that's what makes them great. However, it does not take long to experiece data that do not fit expectations. And, while we want to increase levels of annotation to advance science, files can have much information for eduation purposes. A common practice is to learn principles then use unknowns for assessment.  
 
