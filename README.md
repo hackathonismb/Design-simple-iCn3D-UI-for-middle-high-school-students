@@ -5,7 +5,8 @@ iCn3D is a product with a long history of supporting scientific requirements. As
 2. contribute protoype code for reducing the number of menus for testing; and
 3. make initial recommendations for education modes of operation.   
 
-## The Zoo
+## Why a Zoo?
+We need a project to direct activities and learn what is hard to do and thus, needed to be improved. 
 Want to find antibodies from different creatures. 
 * First Presentation:  https://docs.google.com/presentation/d/1OnyCz__iWb9fTSz5xCb71lRYy5MXRFTvo_NPsnCH3W0/edit#slide=id.g13bea56a948_0_7
 * ImmunoZoo instructions: https://docs.google.com/document/d/1mgUmdTZb0Jm8a7kcAk3M4k7qT7uyJdRhYs5H_GlYShE/edit?usp=sharing
