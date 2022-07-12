@@ -52,6 +52,8 @@ Making iCn3D more accessbile for naive users requires changes at both the applic
 
 #### How to approach
 Can we survey users for their 10 essentials? <br>
+* side by site is cool - another journey :)
+
 Separate hard core structural biology from genral use? Molecule World provides insights. <br>
 Can we use web tracking tools to "follow" users? <br>
 Can we break this down, e.g. top menu by top menu? <br>
