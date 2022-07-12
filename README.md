@@ -41,7 +41,7 @@ Note: the python http.server default port is 8000 - to change add a port after t
 ### Main html file
 Being able to call the control file, load a pdb, png, or state file requires that the main html file (full.html) be modified with code to accept and parse the relelant parameters. This code is added to a copy of full.html (index.html). As new versions of iCn3D come out, this file needs to be compared to the full.html and updated acccoringly. The index.html in the zip file was quickly updated and may have parts that are out of sycn, but should be adequate for testing general ideas. Using the index.html convention simplifies the url in that the main html file does not need to be specified in the URL (https<area>://icn3d/?params vs https<area>://icn3d/full.html?params); anyname can be used with the predeeding caveat in mind.
 
-### to do
+### To Do
 Ideally we'd like to have the menus under "positive control." That is, we can most menus off. Rather than toggle each menu item, 500+ times!, we should specifiy the menus we want displayed, and pass those to the script to write a control file with all menus off, except for those passed into the menu parser script. Div tags can used for the matching. Self menus have a ui-id-number that can be used.  
 
 
@@ -57,7 +57,7 @@ Making iCn3D more accessbile for naive users requires changes at both the applic
 7. MMDB PDB, vs PDB PDB - they are different. 
 8. 
 
-#### How to approach
+#### Improving Usabilty is Big, How Should we Approach This?
 Can we survey users for their 10 essentials? <br>
 * side by site is cool - another journey :)
 
