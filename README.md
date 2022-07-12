@@ -1,6 +1,6 @@
 # ImmunoZoo - Making iCn3D accessble for many audiences
 ## Rationale
-iCn3D is a product with a long history of supporting scientific requirements. As such it has an expasive nested menu system that uses a mix of common and structural biology specific terms resulting in over 500 menu items. The sheer number of menus, combined with opaque language can be confusing to scientists and daunting to students and teachers. Additionally, the user interface, being web-based, can have challenges related to the nature of running an app in a browser (mouse controls, selects, positioning, responsiveness, refreshing). The goals of this project are to: 
+iCn3D is a product with a long history of supporting scientific requirements. As such it has an expasive nested menu system that uses a mix of common and structural biology specific terms resulting in over 500 menu items. The sheer number of menus, combined with opaque language can be confusing to scientists and daunting to students and teachers, and others less familiar with structural biology, and (or) new to iCn3D (like many hack/code-athon participants).   Additionally, the user interface, being web-based, can have challenges related to the nature of running an app in a browser (mouse controls, selects, positioning, responsiveness, refreshing). The goals of this project are to: 
 1. identify the common operations needed for completing classroom exercises; 
 2. contribute protoype code for reducing the number of menus for testing; and
 3. make initial recommendations for education modes of operation.   
@@ -49,6 +49,8 @@ Making iCn3D more accessbile for naive users requires changes at both the applic
 3. Select defined sets appaears in two places. 
 4. Lauguage lots of thesee, and example: "hide unselected" instead of "view selection" it paralleles the item and the action hides things.
 5. Load assymetric unit - who really knows what that is about? 
+6. Default displays - make them easier to convey an understanding of structures (like surface, but it's slow), sphere is good too (better behaved, but needs juice too), but needs more depth (pretty has an impact too)
+7. 
 
 #### How to approach
 Can we survey users for their 10 essentials? <br>
