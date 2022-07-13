@@ -1,0 +1,594 @@
+{
+    "File": {
+        "Search Structure ": ["ui-id-13", 0],
+        "Search Similar": {
+            "self": ["ui-id-14", 0],
+            "NCBI VAST+ (PDB Assembly)": ["div0_mn1_vastplus", 0],
+            "NCBI VAST (PDB)": ["div0_mn1_vast", 0],
+            "Foldseek (PDB & AlphaFold)": ["div0_mn1_foldseek", 0]
+        },
+        "Retrieve by ID": {
+            "self": ["ui-id-15", 1],
+            "MMDB ID ": ["div0_mn1_mmdbid", 0],
+            "MMTF ID ": ["div0_mn1_mmtfid", 0],
+            "PDB ID ": ["div0_mn1_pdbid", 1],
+            "AlphaFold UniProt ID ": ["div0_mn1_afid", 0],
+            "MMDB or AlphaFold IDs": ["div0_mn1_mmdbafid", 0],
+            "OPM PDB ID ": ["div0_mn1_opmid", 0],
+            "mmCIF ID ": ["div0_mn1_mmcifid", 0],
+            "NCBI gi ": ["div0_mn1_gi", 0],
+            "PubChem CID ": ["div0_mn1_cid", 0]
+        },
+        "Open File": {
+            "self": ["ui-id-16", 0],
+            "PDB Files (appendable)": ["div0_mn1_pdbfile_app", 0],
+            "mmCIF File": ["div0_mn1_mmciffile", 0],
+            "Mol2 File": ["div0_mn1_mol2file", 0],
+            "SDF File": ["div0_mn1_sdffile", 0],
+            "XYZ File": ["div0_mn1_xyzfile", 0],
+            "AlphaFold PAE File": ["div0_mn1_afmapfile", 0],
+            "URL(Same Host) ": ["div0_mn1_urlfile", 0],
+            "-": [null, 0],
+            "iCn3D PNG Image": ["div0_mn1_pngimage", 0],
+            "State/Script File": ["div0_mn1_state", 0],
+            "Share Link in Archived Ver. ": ["div0_mn1_fixedversion", 0],
+            "Selection File": ["div0_mn1_selection", 0],
+            "Electron Density(DSN6)": {
+                "self": ["ui-id-17", 0],
+                "Local File": ["div0_mn1_dsn6", 0],
+                "URL(Same Host) ": ["div0_mn1_dsn6url", 0]
+            }
+        },
+        "Align": {
+            "self": ["ui-id-18", 1],
+            "Sequence to Structure": ["div0_mn1_blast_rep_id", 0],
+            "Structure to Structure": {
+                "self": ["ui-id-19", 1],
+                "Two PDB Structures ": ["div0_mn1_align", 1],
+                "Two AlphaFold Structures ": ["div0_mn1_alignaf", 0]
+            },
+            "Multiple Chains ": ["div0_mn1_chainalign", 0]
+        },
+        "Realign Selection": {
+            "self": ["ui-id-20", 0],
+            "by Structure Alignment ": ["ui-id-21", 0],
+            "by Sequence Alignment ": ["ui-id-22", 0],
+            "Residue by Residue": ["ui-id-23", 0]
+        },
+        "3D Printing": {
+            "self": ["ui-id-24", 0],
+            "WRL/VRML(Color, W/ Stab.)": ["div0_mn1_exportVrmlStab", 0],
+            "STL(W/ Stabilizers)": ["div0_mn1_exportStlStab", 0],
+            "-": [null, 0],
+            "WRL/VRML(Color)": ["div0_mn1_exportVrml", 0],
+            "STL": ["div0_mn1_exportStl", 0],
+            "Add All Stabilizers": ["div0_mn1_stabilizerYes", 0],
+            "Remove All Stabilizers": ["div0_mn1_stabilizerNo", 0],
+            "Add One Stabilizer": ["div0_mn1_stabilizerOne", 0],
+            "Remove One Stabilizer": ["div0_mn1_stabilizerRmOne", 0],
+            "Set Thickness": ["div0_mn1_thicknessSet", 0]
+        },
+        "Save Files": {
+            "self": ["ui-id-25", 1],
+            "iCn3D PNG Image": {
+                "self": ["ui-id-26", 1],
+                "Original Size & HTML": ["div0_mn1_exportCanvas", 0],
+                "Original Size": ["div0_mn1_exportCanvas1", 1],
+                "2X Large": ["div0_mn1_exportCanvas2", 1],
+                "4X Large": ["div0_mn1_exportCanvas4", 0],
+                "8X Large": ["div0_mn1_exportCanvas8", 0]
+            },
+            "State File": ["div0_mn1_exportState", 0],
+            "Selection File": ["div0_mn1_exportSelections", 0],
+            "Selection Details": ["div0_mn1_exportSelDetails", 0],
+            "Residue Counts": ["div0_mn1_exportCounts", 0],
+            "PDB": ["div0_mn1_exportPdbRes", 0],
+            "Secondary Structure": ["div0_mn1_exportSecondary", 0]
+        },
+        "Share Link ": ["div0_mn1_sharelink", 1],
+        "Replay Each Step": ["div0_mn1_replayon", 1]
+    },
+    "Select": {
+        "Defined Sets": ["div0_mn2_definedsets", 0],
+        "All": ["div0_mn2_selectall", 1],
+        "Displayed Set": ["div0_mn2_selectdisplayed", 0],
+        "by Distance": ["div0_mn2_aroundsphere", 1],
+        "by Property": {
+            "self": ["ui-id-28", 1],
+            "Positive": ["div0_mn2_propPos", 1],
+            "Negative": ["div0_mn2_propNeg", 1],
+            "Hydrophobic": ["div0_mn2_propHydro", 1],
+            "Polar": ["div0_mn2_propPolar", 1],
+            "B-factor": ["div0_mn2_propBfactor", 1],
+            "Solvent Accessibility": ["div0_mn2_propSolAcc", 1]
+        },
+        "Inverse": ["div0_mn2_selectcomplement", 1],
+        "Main Chains": ["div0_mn2_selectmainchains", 0],
+        "Side Chains": ["div0_mn2_selectsidechains", 0],
+        "Main & Side Chains": ["div0_mn2_selectmainsidechains", 0],
+        "Advanced": ["div0_mn2_command", 0],
+        "Select on 3D": {
+            "self": ["ui-id-29", 0],
+            "\"Alt\"+Click: start selection": [null, 0],
+            "\"Ctrl\"+Click: union selection": [null, 0],
+            "\"Shift\"+Click: range Selection": [null, 0],
+            "-": [null, 0],
+            "Chain": ["ui-id-30", 0],
+            "Strand/Helix": ["ui-id-31", 0],
+            "Residue": ["ui-id-32", 0],
+            "Atom": ["ui-id-33", 0],
+            "None": ["ui-id-34", 0]
+        },
+        "-": ["ui-id-27", 0],
+        "Save Selection": ["div0_mn2_saveselection", 1],
+        "Clear Selection": ["div0_clearall", 1],
+        "Highlight Color": {
+            "self": ["ui-id-35", 0],
+            "Yellow": ["ui-id-36", 0],
+            "Green": ["ui-id-37", 0],
+            "Red": ["ui-id-38", 0]
+        },
+        "Highlight Style": {
+            "self": ["ui-id-39", 0],
+            "Outline": ["ui-id-40", 0],
+            "3D Objects": ["ui-id-41", 0]
+        },
+        "Toggle Highlight": ["div0_toggleHighlight2", 1]
+    },
+    "View": {
+        "Hide Unselected": ["div0_mn2_show_selected", 1],
+        "Hide Selection": ["div0_mn2_hide_selected", 1],
+        "Zoom in Selection": ["div0_mn2_selectedcenter", 1],
+        "Center Selection": ["div0_mn6_center", 1],
+        "View Full Structure": ["div0_mn2_fullstru", 1],
+        "Alternate(Key \"a\")": ["div0_mn2_alternate", 0],
+        "Toggle Membrane": ["div0_togglemem", 0],
+        "Adjust Membrane": ["div0_adjustmem", 0],
+        "-": ["ui-id-42", 0],
+        "VR & AR Hints": {
+            "self": ["ui-id-43", 0],
+            "VR: VR Headsets": ["ui-id-44", 0],
+            "AR: Chrome in Android": ["ui-id-45", 0]
+        },
+        "Side by Side": ["div0_mn6_sidebyside", 1],
+        "Rotate": {
+            "self": ["ui-id-46", 1],
+            "Rotate 90\u00b0": {
+                "self": ["ui-id-47", 1],
+                "X-axis(Shift + Key M)": ["ui-id-48", 1],
+                "Y-axis(Shift + Key J)": ["ui-id-49", 1],
+                "Z-axis": ["ui-id-50", 1]
+            },
+            "Auto Rotation": {
+                "self": ["ui-id-51", 1],
+                "Rotate Left": ["ui-id-52", 1],
+                "Rotate Right": ["ui-id-53", 1],
+                "Rotate Up": ["ui-id-54", 1],
+                "Rotate Down": ["ui-id-55", 1]
+            }
+        },
+        "Camera": {
+            "self": ["ui-id-56", 0],
+            "Perspective": ["ui-id-57", 0],
+            "Orthographic": ["ui-id-58", 0]
+        },
+        "Fog for Selection": {
+            "self": ["ui-id-59", 0],
+            "On": ["ui-id-60", 0],
+            "Off": ["ui-id-61", 0]
+        },
+        "Slab for Selection": {
+            "self": ["ui-id-62", 0],
+            "On": ["ui-id-63", 0],
+            "Off": ["ui-id-64", 0]
+        },
+        "XYZ-axes": {
+            "self": ["ui-id-65", 0],
+            "Original": ["ui-id-66", 0],
+            "Prin. Axes on Sel.": ["ui-id-67", 0],
+            "Hide": ["ui-id-68", 0]
+        },
+        "Reset": {
+            "self": ["ui-id-69", 1],
+            "All": ["ui-id-70", 1],
+            "Orientation": ["ui-id-71", 1]
+        },
+        "Undo": ["div0_mn6_back", 1],
+        "Redo": ["div0_mn6_forward", 1],
+        "Full Screen": ["div0_mn6_fullscreen", 0]
+    },
+    "Style": {
+        "Proteins": {
+            "self": ["ui-id-73", 1],
+            "Ribbon": ["ui-id-74", 1],
+            "Strand": ["ui-id-75", 1],
+            "Cylinder and Plate": ["ui-id-76", 0],
+            "Schematic": ["ui-id-77", 0],
+            "C Alpha Trace": ["ui-id-78", 0],
+            "Backbone": ["ui-id-79", 1],
+            "B-factor Tube": ["ui-id-80", 0],
+            "Lines": ["ui-id-81", 1],
+            "Stick": ["ui-id-82", 0],
+            "Ball and Stick": ["ui-id-83", 1],
+            "Sphere": ["ui-id-84", 0],
+            "Hide": ["ui-id-85", 0]
+        },
+        "Side Chains": {
+            "self": ["ui-id-86", 1],
+            "Lines": ["ui-id-87", 1],
+            "Stick": ["ui-id-88", 0],
+            "Ball and Stick": ["ui-id-89", 1],
+            "Sphere": ["ui-id-90", 0],
+            "Hide": ["ui-id-91", 0]
+        },
+        "Nucleotides": {
+            "self": ["ui-id-92", 1],
+            "Cartoon": ["ui-id-93", 1],
+            "O3' Trace": ["ui-id-94", 0],
+            "Backbone": ["ui-id-95", 1],
+            "Schematic": ["ui-id-96", 1],
+            "Lines": ["ui-id-97", 0],
+            "Stick": ["ui-id-98", 0],
+            "Ball and Stick": ["ui-id-99", 1],
+            "Sphere": ["ui-id-100", 0],
+            "Hide": ["ui-id-101", 0]
+        },
+        "Nucl. Bases": {
+            "self": ["ui-id-102", 1],
+            "Lines": ["ui-id-103", 0],
+            "Stick": ["ui-id-104", 0],
+            "Ball and Stick": ["ui-id-105", 1],
+            "Sphere": ["ui-id-106", 0],
+            "Hide": ["ui-id-107", 0]
+        },
+        "Chemicals": {
+            "self": ["ui-id-108", 1],
+            "Lines": ["ui-id-109", 0],
+            "Stick": ["ui-id-110", 0],
+            "Ball and Stick": ["ui-id-111", 1],
+            "Schematic": ["ui-id-112", 0],
+            "Sphere": ["ui-id-113", 0],
+            "Hide": ["ui-id-114", 0]
+        },
+        "Hydrogens": {
+            "self": ["ui-id-115", 1],
+            "Show": ["ui-id-116", 1],
+            "Hide": ["ui-id-117", 1]
+        },
+        "Glycans": {
+            "self": ["ui-id-118", 1],
+            "Show Cartoon": ["ui-id-119", 1],
+            "Hide Cartoon": ["ui-id-120", 1]
+        },
+        "Ions": {
+            "self": ["ui-id-121", 1],
+            "Sphere": ["ui-id-122", 1],
+            "Dot": ["ui-id-123", 0],
+            "Hide": ["ui-id-124", 1]
+        },
+        "Water": {
+            "self": ["ui-id-125", 1],
+            "Sphere": ["ui-id-126", 1],
+            "Dot": ["ui-id-127", 0],
+            "Hide": ["ui-id-128", 1]
+        },
+        "Preferences": ["div0_mn3_setThickness", 0],
+        "-": ["ui-id-72", 0],
+        "Save Style": ["div0_mn3_styleSave", 1],
+        "Apply Saved Style": ["div0_mn3_styleApplySave", 1],
+        "Surface Type": {
+            "self": ["ui-id-129", 0],
+            "Van der Waals": ["ui-id-130", 1],
+            "VDW with Context": ["ui-id-131", 0],
+            "Molecular Surface": ["ui-id-132", 1],
+            "MS with Context": ["ui-id-133", 0],
+            "Solvent Accessible": ["ui-id-134", 1],
+            "SA with Context": ["ui-id-135", 0]
+        },
+        "Remove Surface": ["div0_mn5_surfaceNo", 0],
+        "Surface Opacity": {
+            "self": ["ui-id-136", 0],
+            "Fast Transparency": {
+                "self": ["ui-id-137", 0],
+                "1.0": ["ui-id-138", 0],
+                "0.9": ["ui-id-139", 0],
+                "0.8": ["ui-id-140", 0],
+                "0.7": ["ui-id-141", 0],
+                "0.6": ["ui-id-142", 0],
+                "0.5": ["ui-id-143", 0],
+                "0.4": ["ui-id-144", 0],
+                "0.3": ["ui-id-145", 0],
+                "0.2": ["ui-id-146", 0],
+                "0.1": ["ui-id-147", 0]
+            },
+            "Slow Transparency": {
+                "self": ["ui-id-148", 0],
+                "1.0": ["ui-id-149", 0],
+                "0.9": ["ui-id-150", 0],
+                "0.8": ["ui-id-151", 0],
+                "0.7": ["ui-id-152", 0],
+                "0.6": ["ui-id-153", 0],
+                "0.5": ["ui-id-154", 0],
+                "0.4": ["ui-id-155", 0],
+                "0.3": ["ui-id-156", 0],
+                "0.2": ["ui-id-157", 0],
+                "0.1": ["ui-id-158", 0]
+            }
+        },
+        "Surface Wireframe": {
+            "self": ["ui-id-159", 0],
+            "Yes": ["ui-id-160", 0],
+            "No": ["ui-id-161", 0]
+        },
+        "Electron Density": {
+            "self": ["ui-id-162", 0],
+            "2Fo-Fc Map": ["ui-id-163", 0],
+            "Fo-Fc Map": ["ui-id-164", 0]
+        },
+        "Remove Map": ["div0_mn5_elecmapNo", 0],
+        "Map Wireframe": {
+            "self": ["ui-id-165", 0],
+            "Yes": ["ui-id-166", 0],
+            "No": ["ui-id-167", 0]
+        },
+        "EM Density Map": ["div0_mn5_emmap", 0],
+        "Remove EM Map": ["div0_mn5_emmapNo", 0],
+        "EM Map Wireframe": {
+            "self": ["ui-id-168", 0],
+            "Yes": ["ui-id-169", 0],
+            "No": ["ui-id-170", 0]
+        },
+        "Background": {
+            "self": ["ui-id-171", 1],
+            "Transparent": ["ui-id-172", 1],
+            "Black": ["ui-id-173", 1],
+            "Gray": ["ui-id-174", 1],
+            "White": ["ui-id-175", 1]
+        },
+        "Dialog Color": {
+            "self": ["ui-id-176", 0],
+            "Blue": ["ui-id-177", 0],
+            "Orange": ["ui-id-178", 0],
+            "Black": ["ui-id-179", 0]
+        }
+    },
+    "Color": {
+        "Unicolor": {
+            "self": ["ui-id-181", 1],
+            "Red": {
+                "self": ["ui-id-182", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-191", 1]
+            },
+            "Pink": {
+                "self": ["ui-id-192", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-198", 1]
+            },
+            "Orange": {
+                "self": ["ui-id-199", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-205", 1]
+            },
+            "Yellow": {
+                "self": ["ui-id-206", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-217", 1]
+            },
+            "Magenta": {
+                "self": ["ui-id-218", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-236", 1]
+            },
+            "Green": {
+                "self": ["ui-id-237", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-259", 1]
+            },
+            "Cyan": {
+                "self": ["ui-id-260", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-267", 1]
+            },
+            "Blue": {
+                "self": ["ui-id-268", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-285", 1]
+            },
+            "Brown": {
+                "self": ["ui-id-286", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-303", 1]
+            },
+            "White": {
+                "self": ["ui-id-304", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-321", 1]
+            },
+            "Gray": {
+                "self": ["ui-id-322", 1],
+                "\u00a0\u00a0\u00a0": ["ui-id-332", 1]
+            }
+        },
+        "Color Picker": ["ui-id-333", 0],
+        "-": ["ui-id-180", 0],
+        "Rainbow (R-V)": {
+            "self": ["ui-id-334", 0],
+            "for Selection": ["ui-id-335", 0],
+            "for Chains": ["ui-id-336", 0],
+            "for Sets": ["ui-id-337", 0]
+        },
+        "Spectrum (V-R)": {
+            "self": ["ui-id-338", 0],
+            "for Selection": ["ui-id-339", 0],
+            "for Chains": ["ui-id-340", 0],
+            "for Sets": ["ui-id-341", 0]
+        },
+        "Secondary": {
+            "self": ["ui-id-342", 0],
+            "Sheet in Green": ["ui-id-343", 0],
+            "Sheet in Yellow": ["ui-id-344", 0],
+            "Spectrum": ["ui-id-345", 0]
+        },
+        "Charge": ["ui-id-346", 0],
+        "Hydrophobicity": {
+            "self": ["ui-id-347", 0],
+            "Normalized": ["ui-id-348", 0],
+            "Wimley-White": ["ui-id-349", 0]
+        },
+        "B-factor": {
+            "self": ["ui-id-350", 0],
+            "Original": ["ui-id-351", 0],
+            "Percentile": ["ui-id-352", 0]
+        },
+        "Accessibility": ["ui-id-353", 0],
+        "Structure": ["ui-id-354", 0],
+        "Chain": ["ui-id-355", 0],
+        "3D Domain": ["ui-id-356", 0],
+        "Defined Sets": {
+            "self": ["ui-id-357", 0]
+        },
+        "Residue": {
+            "self": ["ui-id-359", 0],
+            "Default": ["ui-id-360", 0],
+            "Custom": ["ui-id-361", 0]
+        },
+        "Atom": ["ui-id-362", 0],
+        "Confidence": ["ui-id-363", 0],
+        "Save Color": ["div0_mn4_clrSave", 0],
+        "Apply Saved Color": ["div0_mn4_clrApplySave", 0]
+    },
+    "\u00a0Analysis": {
+        "Seq. & Annotations ": ["div0_mn6_selectannotations", 1],
+        "Aligned Seq. ": ["div0_mn2_alignment", 1],
+        "2D Cartoon": {
+            "self": ["ui-id-365", 1],
+            "Chain Level": ["div0_2dctn_chain", 1],
+            "Domain Level": ["div0_2dctn_domain", 1],
+            "Helix/Sheet Level": ["div0_2dctn_secondary", 1]
+        },
+        "Defined Sets": ["div0_definedsets2", 1],
+        "-": ["ui-id-364", 0],
+        "Interactions": ["div0_mn6_hbondsYes", 1],
+        "Contact Map": ["div0_mn6_contactmap", 1],
+        "Mutation ": ["div0_mn1_mutation", 0],
+        "DelPhi Potential ": ["div0_mn1_delphi", 0],
+        "Load PQR/Phi": {
+            "self": ["ui-id-366", 0],
+            "Local PQR/Phi/Cube File": ["div0_mn1_phi", 0],
+            "URL PQR/Phi/Cube File": ["div0_mn1_phiurl", 0]
+        },
+        "Download PQR": ["div0_delphipqr", 0],
+        "Distance": {
+            "self": ["ui-id-367", 0],
+            "between Two Atoms": ["ui-id-368", 0],
+            "between Two Sets": ["ui-id-369", 0],
+            "Among Many Sets": ["ui-id-370", 0],
+            "Hide": ["ui-id-371", 0]
+        },
+        "Surface Area": ["div0_mn6_area", 0],
+        "Label": {
+            "self": ["ui-id-372", 0],
+            "by Picking Atoms": ["ui-id-373", 0],
+            "per Selection": ["ui-id-374", 0],
+            "per Atom": ["ui-id-375", 0],
+            "per Atom Element": ["ui-id-376", 0],
+            "per Residue": ["ui-id-377", 0],
+            "per Residue & Number": ["ui-id-378", 0],
+            "per Chain": ["ui-id-379", 0],
+            "N- & C-Termini": ["ui-id-380", 0],
+            "-": [null, 0],
+            "Change Label Color": ["ui-id-381", 0],
+            "Remove": ["ui-id-382", 0]
+        },
+        "Label Scale": {
+            "self": ["ui-id-383", 0],
+            "0.2": ["ui-id-384", 0],
+            "0.4": ["ui-id-385", 0],
+            "0.6": ["ui-id-386", 0],
+            "0.8": ["ui-id-387", 0],
+            "1.0": ["ui-id-388", 0],
+            "2.0": ["ui-id-389", 0],
+            "3.0": ["ui-id-390", 0],
+            "4.0": ["ui-id-391", 0],
+            "5.0": ["ui-id-392", 0]
+        },
+        "Chem. Binding": {
+            "self": ["ui-id-393", 1],
+            "Show": ["ui-id-394", 1],
+            "Hide": ["ui-id-395", 1]
+        },
+        "Disulfide Bonds": {
+            "self": ["ui-id-396", 1],
+            "Show": ["ui-id-397", 1],
+            "Export Pairs": ["ui-id-398", 1],
+            "Hide": ["ui-id-399", 1]
+        },
+        "Cross-Linkages": {
+            "self": ["ui-id-400", 0],
+            "Show": ["ui-id-401", 0],
+            "Export Pairs": ["ui-id-402", 0],
+            "Hide": ["ui-id-403", 0]
+        },
+        "Symmetry": {
+            "self": ["ui-id-404", 0],
+            "from SymD(Dynamic) ": ["div0_mn6_symd", 0],
+            "Clear SymD Symmetry": ["div0_mn6_clear_sym", 0],
+            "Show Axes Only": ["div0_mn6_axes_only", 0]
+        },
+        "Window Title": ["div0_mn6_yournote", 0],
+        "Links": {
+            "self": ["ui-id-405", 0],
+            "Structure Summary ": ["div0_mn1_link_structure", 0],
+            "Similar Structures ": ["div0_mn1_link_vast", 0],
+            "Literature ": ["div0_mn1_link_pubmed", 0],
+            "Protein ": ["div0_mn1_link_protein", 0]
+        }
+    },
+    "Help": {
+        " 3.12.7": ["ui-id-407", 1],
+        "Live Gallery ": ["ui-id-408", 1],
+        "Tutorial": {
+            "self": ["ui-id-409", 1],
+            "Use iCn3D": ["ui-id-410", 1],
+            "iCn3D Videos": ["ui-id-411", 1],
+            "URL Parameters": ["ui-id-412", 0],
+            "Commands": ["ui-id-413", 1]
+        },
+        "Search Structure ": ["ui-id-414", 1],
+        "Citing iCn3D": ["ui-id-415", 1],
+        "Source Code": {
+            "self": ["ui-id-416", 0],
+            "GitHub (browser) ": ["ui-id-417", 0],
+            "npm (Node.js) ": ["ui-id-418", 0],
+            "Jupyter Notebook ": ["ui-id-419", 0]
+        },
+        "Develop": {
+            "self": ["ui-id-420", 0],
+            "How to Embed": ["ui-id-421", 0],
+            "Data Structure": ["ui-id-422", 0],
+            "Class Structure": ["ui-id-423", 0],
+            "Add New Classes": ["ui-id-424", 0],
+            "Modify Functions": ["ui-id-425", 0],
+            "RESTful APIs": ["ui-id-426", 0],
+            "Codeathon Contributors": ["ui-id-427", 0]
+        },
+        "Help Doc ": ["ui-id-428", 1],
+        "-": ["ui-id-406", 1],
+        "Transform Hints": {
+            "self": ["ui-id-429", 1],
+            "Rotate": {
+                "self": ["ui-id-430", 1],
+                "Left Mouse (Click & Drag)": [null, 1],
+                "Key l: Left": [null, 1],
+                "Key j: Right": [null, 1],
+                "Key i: Up": [null, 1],
+                "Key m: Down": [null, 1],
+                "Shift + Key l: Left 90\u00b0": [null, 1],
+                "Shift + Key j: Right 90\u00b0": [null, 1],
+                "Shift + Key i: Up 90\u00b0": [null, 1],
+                "Shift + Key m: Down 90\u00b0": [null, 1]
+            },
+            "Zoom": {
+                "self": ["ui-id-431", 1],
+                "Key z: Zoom in": [null, 1],
+                "Key x: Zoom out": [null, 1]
+            },
+            "Translate": {
+                "self": ["ui-id-433", 1]
+            }
+        },
+        "Selection Hints": ["ui-id-435", 1],
+        "Write to Help Desk": ["ui-id-436", 1]
+    }
+}
