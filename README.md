@@ -1,5 +1,5 @@
 # ImmunoZoo - Making iCn3D accessble for many audiences
-![logo](./images/immunozoo.png | width=300)
+![logo](./images/immunozoo.png|width=300)
 ## Rationale
 iCn3D is a product with a long history of supporting scientific requirements. As such it has an expasive nested menu system that uses a mix of common and structural biology specific terms resulting in over 500 menu items. The sheer number of menus, combined with opaque language can be confusing to scientists and daunting to students and teachers, and others less familiar with structural biology, and (or) new to iCn3D (like many hack/code-athon participants).   Additionally, the user interface, being web-based, can have challenges related to the nature of running an app in a browser (mouse controls, selects, positioning, responsiveness, refreshing). 
 
