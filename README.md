@@ -51,11 +51,16 @@ python -m http.server 8080 | python -m webbrowser 'http://localhost:8080/icn3d/?
 
 ### URL parameters
 As this is a prototype workaround a file is needed. I put these in a structures directory, the commands are now:
-* NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
-* python: python -m http.server | python -m webbrowser 'http:<area>//localhost:8000/icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
-
+* NPM:
+```  
+http-server -a localhost -o 'icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
+```
+* python: 
+```
+python -m http.server | python -m webbrowser 'http:<area>//localhost:8000/icn3d/?menuconfig=menu.json&type=pdb&url=/structures/3WD5_icn3d.pdb'
+```
 The type parameter specifies either a pdb file or a png file. For png use type=icn3dpng. The url paramter is the file path. State files can also be loaded for visualizing annotations using the statefile parameter, statefile=/filepath. Besure to specify the root dir in paths ("/"). 
-Note: the python http.server default port is 8000 - to change add a port after the command, e.g. "python -m http.server 8080." Maksure localhost:port matches. 
+Note: the python http.server default port is 8000 - to change add a port after the command, e.g. "python -m http.server 8080." Make sure localhost:port matches. 
 
 ### Main html file
 Being able to call the control file, load a pdb, png, or state file requires that the main html file (full.html) be modified with code to accept and parse the relelant parameters. This code is added to a copy of full.html (index.html). As new versions of iCn3D come out, this file needs to be compared to the full.html and updated acccoringly. The index.html in the zip file was quickly updated and may have parts that are out of sycn, but should be adequate for testing general ideas. Using the index.html convention simplifies the url in that the main html file does not need to be specified in the URL (https<area>://icn3d/?params vs https<area>://icn3d/full.html?params); anyname can be used with the predeeding caveat in mind.
@@ -66,6 +71,7 @@ Ideally we'd like to have the menus under "positive control." That is, we can mo
 
 ## Recomendations
 Making iCn3D more accessbile for naive users requires changes at both the application and data level. The data and the application create the experiece. 
+
 ### Application
 1. iCn3D has links everywhere, some make selections, others take you places like databases at NCBI, and <em>all look the same</em> - how do I know what will happen before it happens (maybe it's the underlines) - but a tiny external icon many 
 2. Title - always get in the way, I'd like to toggle between show and hide. 
