@@ -24,11 +24,24 @@ In previous work we created a method to prototype whether an iCn3d menu is displ
 To build the menu.json file, first install and build local version of iCn3D following the instructions on the iCn3D page. 
 Next, get cn3d_menu_parser.py and follow the instructions on https://github.com/digitaltodd/iCn3D-protyping/tree/main/menu_parser. 
 
-For simple testing of iCn3d_3.12.7 - the "codeathon" version, download and unpack the zip file in this repository. It has a prebuilt menu.jason file with all menus on. 
+For simple testing of iCn3d_3.12.7 - the "codeathon" version, unpack the zip file in this repository. It has a prebuilt menu.json file with all menus on. 
+
+```
+git clone https://github.com/hackathonismb/ImmunoZoo
+cd ImmunoZoo
+unzip icn3d.zip
+```
 
 run: 
-* NPM:  http-server -a localhost -o 'icn3d/?menuconfig=menu.json'
-* python: python -m http.server | python -m webbrowser 'http:<area>//localhost:8080/icn3d/?menuconfig=menu.json'
+
+* NPM:
+```
+http-server -a localhost -o 'icn3d/?menuconfig=menu.json'
+```
+* python:
+```
+python -m http.server 8080 | python -m webbrowser 'http://localhost:8080/icn3d/?menuconfig=menu.json'
+```
 
 ### URL parameters
 As this is a prototype workaround a file is needed. I put these in a structures directory, the commands are now:
