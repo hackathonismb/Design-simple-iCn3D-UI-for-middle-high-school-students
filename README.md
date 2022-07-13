@@ -10,6 +10,8 @@ iCn3D is a product with a long history of supporting scientific requirements. As
 2. Contribute protoype code for reducing the number of menus for testing; and
 3. Make initial recommendations for education modes of operation.   
 
+<p align="center"><img src="https://github.com/hackathonismb/ImmunoZoo/blob/main/images/Project-goals.png"></p>
+
 ## Why a Zoo?
 We need a project to direct activities and learn what is easy/hard to do and thus, identify areas for improvement. Antibodies are important molecules in research, biotechnology applications, and health. And, all vertebrates have them, and they come in different sizes and shapes. So, antibodies make for good test cases. And, learning about antibodies from different animals is fun and makes for intersting conversation. 
 Want to find antibodies from different creatures. 
@@ -88,4 +90,11 @@ Databases are great, they are often populated in automated ways, that's what mak
 iCn3D updates frequently. There are lots of discussions regarding specific applications, different modalities, and local operation. A big question that will come up is how can updates of iCn3D be propogated and synchronized with other versions. Presently some modifications require updating functions in several locations within the code. Micgrating changes from one version to another can take on the order of day(s) to complete.  
 
 ## Team
-comming soon
+* Sandra Porter
+* Todd Smith
+* Sheela Vemu
+* Carsten Fortmann-Grote 
+* Yagoub Adam
+* Shikha Kathrani
+* Jack Lin
+
