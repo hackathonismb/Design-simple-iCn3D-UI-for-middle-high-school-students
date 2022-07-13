@@ -10,6 +10,7 @@ iCn3D is a product with a long history of supporting scientific requirements. As
 2. Contribute protoype code for reducing the number of menus for testing; and
 3. Make initial recommendations for education modes of operation.   
 
+### Graphical abstract
 <p align="center"><img src="https://github.com/hackathonismb/ImmunoZoo/blob/main/images/Project-goals.png"></p>
 
 ## Why a Zoo?
